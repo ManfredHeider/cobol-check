@@ -1,0 +1,7 @@
+               TESTSUITE
+           "PMAN0128 Tests"
+
+           TESTCASE "Test Section V02-INIT-FELDER"
+           MOVE "OK" TO S-NZ
+           PERFORM V02-INIT-FELDER
+           EXPECT S-NZ TO BE "OK"

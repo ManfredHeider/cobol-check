@@ -1,0 +1,6 @@
+               TESTSUITE
+           "UPAN0026 Tests"
+
+           TESTCASE "Test Section UPAN0026-STEUERUNG"
+           PERFORM UPAN0026-STEUERUNG
+           EXPECT Z-RC TO BE "OK"

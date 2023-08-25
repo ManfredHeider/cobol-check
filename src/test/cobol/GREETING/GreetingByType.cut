@@ -13,6 +13,9 @@
            TESTCASE "try 88 level compare"
            EXPECT MESSAGE-IS-GREETING TO BE FALSE
 
+           TESTCASE "MHTest try 88 level compare Expecting True"
+           EXPECT MESSAGE-IS-GREETING TO BE TRUE
+
            TESTCASE "When message type is farewell it returns See you later, alligator!"
            SET MESSAGE-IS-FAREWELL TO TRUE
            PERFORM 2000-SPEAK
